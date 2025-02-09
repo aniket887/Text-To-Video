@@ -3,6 +3,7 @@ from diffusers import StableDiffusionPipeline
 from gtts import gTTS
 from moviepy.editor import *
 import torch
+import pandas as pd
 
 # Ensure you're using GPU if available
 device = "cuda" if torch.cuda.is_available() else "cpu"
